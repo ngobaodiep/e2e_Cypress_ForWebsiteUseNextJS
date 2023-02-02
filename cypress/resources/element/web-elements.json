@@ -1,0 +1,76 @@
+{
+  "setting" : {
+    "verticalMenu" : {
+      "toolsBtn" : "svg[data-icon=\"screwdriver-wrench\"]"
+    },
+    "tools" : {
+      "createToolsBtn" : "svg[data-testid=\"AddIcon\"]",
+      "totalToolsTxt" : "h2:right-of(h2:has-text(\"Tools\")) >> nth=0",
+      "searchByTextBox" : "input[aria-label=\"search\"]",
+      "searchByBtn" : "#searchBy-select",
+      "searchByListOptionAll" : "li[role=\"option\"]:visible",
+      "recordRowAll" : "div[role=\"row\"]:visible",
+      "rowFields" : {
+        "checkBox" : "input[aria-label=\"Select row\"]",
+        "reference" : "div[data-field=\"reference\"]",
+        "name" : "div[data-field=\"name\"]",
+        "group" : "div[data-field=\"groupsName\"]",
+        "category" : "div[data-field=\"mobileAssetCategoryDto\"]",
+        "battery" : "div[data-field=\"mobileAssetLithiumBattery\"]",
+        "batteryLevel" : "div[data-field=\"mobileAssetBatteryPercentage\"]",
+        "status" : "div[data-field=\"active\"]"
+      },
+      "popup" : {
+        "itself" : ".MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-v5vnej-MuiPaper-root-MuiPopover-paper:visible",
+        "editBtn" : "svg[data-testid=\"EditIcon\"]:visible",
+        "deleteBtn" : "svg[data-testid=\"DeleteIcon\"]:visible",
+        "name" : "h1[class=\"MuiTypography-root MuiTypography-h1 css-1pt5kav-MuiTypography-root\"]:visible",
+        "status" : "h6[class=\"MuiTypography-root MuiTypography-subtitle1 css-4egieu-MuiTypography-root\"]:visible",
+        "reference" : ".css-1q6l9mu-MuiTypography-root >> nth=0",
+        "category" : ".css-1q6l9mu-MuiTypography-root >> nth=1",
+        "boxOtherInformation" : ".MuiBox-root css-nb5cbv:visible",
+        "closeBtn" : "button[aria-label=\"close-modal\"]"
+      },
+      "searchOption" : {
+        "allColumn" : "All Columns",
+        "reference" : "Reference",
+        "name" : "Name",
+        "category" : "Category",
+        "group" : "Group",
+        "lithiumBattery" : "Lithium Battery",
+        "batteryLevel" : "Battery Level",
+        "status" : "Status"
+      },
+      "createNew" : {
+        "nameInput" : "input[id=\":rf:\"]",
+        "referenceInput" : "input[id=\":rg:\"]",
+        "manufacturerInput" : "input[id=\":rh:\"]",
+        "categoryInput" : "#category-select",
+        "categoryInputDefault" : ".MuiMenuItem-gutters.css-eau3rr-MuiButtonBase-root-MuiMenuItem-root",
+        "groupInput" : "#mui-component-select-group",
+        "groupInputFirst" : ".MuiMenuItem-gutters Mui-selected.css-mi7jc4-MuiButtonBase-root-MuiMenuItem-root",
+        "serialNumberInput" : "#serialNumber-select",
+        "serialNumberInputFirst" : ".MuiMenuItem-gutters.css-eau3rr-MuiButtonBase-root-MuiMenuItem-root",
+        "descriptionInput" : "textarea[id=\":ri:\"]",        
+        "cancel" : "Cancel",
+        "save" : "Save tool"
+      }
+    },
+    "notification" : {
+      "rightSuccess" : ".css-lkgs36-MuiPaper-root-MuiSnackbarContent-root:visible"
+    }
+  },
+  "login" : {
+    "username" : "#username",
+    "password" : "#password",
+    "submitButton" : "button[type=\"submit\"]",
+    "errorMessage" : ".MuiTypography-root.MuiTypography-body2.css-xhsq47-MuiTypography-root",
+    "usernameHelper" : "#username-helper-text",
+    "passwordHelper" : "#password-helper-text"
+  },
+  "mainMenu" : {
+    "avatarIcon" : ".MuiAvatar-img.css-1pqm26d-MuiAvatar-img",
+    "logoutBtn" : "button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedError.MuiButton-sizeSmall.MuiButton-outlinedSizeSmall.MuiButton-fullWidth.MuiButtonBase-root.css-1to0yw9-MuiButtonBase-root-MuiButton-root",
+    "settingIcon" : "button[aria-label=\"settings\"]"
+  }
+}
